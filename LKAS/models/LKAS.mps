@@ -1228,7 +1228,7 @@
       </node>
       <node concept="zGsxD" id="6AIRxP69WHs" role="zGsxH">
         <property role="2MHvPS" value="7615268237242518349" />
-        <property role="zGsxJ" value="440.0;40.000030517578125;206.0;171.62501525878906" />
+        <property role="zGsxJ" value="440.0;40.000038146972656;206.0;171.62501525878906" />
       </node>
       <node concept="zGsxD" id="6AIRxP69WHF" role="zGsxH">
         <property role="2MHvPS" value="7615268237242518349_7615268237242518374" />
@@ -1244,7 +1244,7 @@
       </node>
       <node concept="zGsxD" id="6AIRxP69WIK" role="zGsxH">
         <property role="2MHvPS" value="7615268237242518349_7615268237242518434" />
-        <property role="zGsxJ" value="5.0;115.5;92.0;18.0" />
+        <property role="zGsxJ" value="7.0;115.50000762939453;92.0;18.0" />
       </node>
       <node concept="zGsxD" id="6AIRxP69WLQ" role="zGsxH">
         <property role="2MHvPS" value="7615268237242518201_7615268237242518627" />
