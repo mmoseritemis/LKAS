@@ -72,6 +72,7 @@
       <concept id="3384350556523616640" name="com.moraad.core.structure.ISecABasicElementRef" flags="ng" index="122Z_A">
         <reference id="3384350556523616658" name="target" index="122Z_O" />
       </concept>
+      <concept id="3384350556533323994" name="com.moraad.core.structure.DataSecurityTarget" flags="ng" index="13pXwW" />
       <concept id="3384350556533323995" name="com.moraad.core.structure.ComponentSecurityTarget" flags="ng" index="13pXwX" />
       <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
         <child id="9003278715588858344" name="projectInfoContent" index="$s4ey" />
@@ -252,6 +253,76 @@
       <node concept="3h3ntD" id="3JPVaN3cLYh" role="1u4RdC" />
       <node concept="3WX1Ss" id="7gwHXN$9zGs" role="1u4RdC" />
       <node concept="3VMn$a" id="6SApaoml3Gz" role="2JHqPs" />
+    </node>
+    <node concept="EbI1Y" id="Xh4GVR93yb" role="1u4Ppf">
+      <property role="TrG5h" value="CC.4" />
+      <property role="DVXpC" value="Encryption Option A" />
+      <node concept="3VMn$a" id="Xh4GVR93yc" role="2JHqPs" />
+      <node concept="3RtnZZ" id="Xh4GVR93$q" role="1u4RdF">
+        <ref role="122Z_O" to="g48d:4CQftq3lQjc" resolve="I" />
+      </node>
+      <node concept="122ZmF" id="Xh4GVR93_x" role="1u4Rdk">
+        <ref role="122Z_O" node="4CQftq3lQmG" resolve="TC.2" />
+      </node>
+      <node concept="3WX1Ss" id="Xh4GVR93AC" role="1u4RdC" />
+      <node concept="13pXwX" id="Xh4GVR93CR" role="1u4RdC" />
+      <node concept="13pXwW" id="Xh4GVR93F8" role="1u4RdC" />
+      <node concept="3h3ntD" id="Xh4GVR93Hr" role="1u4RdC" />
+      <node concept="3RtpOr" id="Xh4GVR93IA" role="3RtpOm">
+        <ref role="3RtpOq" to="g48d:4CQftq3lQhE" resolve="T" />
+        <ref role="3RtpRB" to="g48d:4CQftq3lQhG" resolve="T0" />
+      </node>
+      <node concept="3RtpOr" id="Xh4GVR93Jg" role="3RtpOm">
+        <ref role="3RtpOq" to="g48d:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpRB" to="g48d:4CQftq3lQhx" resolve="Ex0" />
+      </node>
+      <node concept="3RtpOr" id="Xh4GVR93JM" role="3RtpOm">
+        <ref role="3RtpOq" to="g48d:4CQftq3lQhP" resolve="K" />
+        <ref role="3RtpRB" to="g48d:4CQftq3lQhQ" resolve="K0" />
+      </node>
+      <node concept="3RtpOr" id="Xh4GVR93Kc" role="3RtpOm">
+        <ref role="3RtpOq" to="g48d:4CQftq3lQh_" resolve="W" />
+        <ref role="3RtpRB" to="g48d:4CQftq3lQhA" resolve="W0" />
+      </node>
+      <node concept="3RtpOr" id="Xh4GVR93Ku" role="3RtpOm">
+        <ref role="3RtpOq" to="g48d:4CQftq3lQhK" resolve="Eq" />
+        <ref role="3RtpRB" to="g48d:4CQftq3lQhL" resolve="Eq0" />
+      </node>
+    </node>
+    <node concept="EbI1Y" id="Xh4GVR942$" role="1u4Ppf">
+      <property role="TrG5h" value="CC.5" />
+      <property role="DVXpC" value="Encryption Option B" />
+      <node concept="3VMn$a" id="Xh4GVR942_" role="2JHqPs" />
+      <node concept="3RtnZZ" id="Xh4GVR944Z" role="1u4RdF">
+        <ref role="122Z_O" to="g48d:4CQftq3lQjc" resolve="I" />
+      </node>
+      <node concept="122ZmF" id="Xh4GVR9466" role="1u4Rdk">
+        <ref role="122Z_O" node="4CQftq3lQmG" resolve="TC.2" />
+      </node>
+      <node concept="3WX1Ss" id="Xh4GVR947d" role="1u4RdC" />
+      <node concept="13pXwX" id="Xh4GVR949s" role="1u4RdC" />
+      <node concept="13pXwW" id="Xh4GVR94bH" role="1u4RdC" />
+      <node concept="3h3ntD" id="Xh4GVR94e0" role="1u4RdC" />
+      <node concept="3RtpOr" id="Xh4GVR94fb" role="3RtpOm">
+        <ref role="3RtpOq" to="g48d:4CQftq3lQhE" resolve="T" />
+        <ref role="3RtpRB" to="g48d:4CQftq3lQhG" resolve="T0" />
+      </node>
+      <node concept="3RtpOr" id="Xh4GVR94fP" role="3RtpOm">
+        <ref role="3RtpOq" to="g48d:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpRB" to="g48d:4CQftq3lQhx" resolve="Ex0" />
+      </node>
+      <node concept="3RtpOr" id="Xh4GVR94gn" role="3RtpOm">
+        <ref role="3RtpOq" to="g48d:4CQftq3lQhP" resolve="K" />
+        <ref role="3RtpRB" to="g48d:4CQftq3lQhQ" resolve="K0" />
+      </node>
+      <node concept="3RtpOr" id="Xh4GVR94gL" role="3RtpOm">
+        <ref role="3RtpOq" to="g48d:4CQftq3lQh_" resolve="W" />
+        <ref role="3RtpRB" to="g48d:4CQftq3lQhA" resolve="W0" />
+      </node>
+      <node concept="3RtpOr" id="Xh4GVR94h3" role="3RtpOm">
+        <ref role="3RtpOq" to="g48d:4CQftq3lQhK" resolve="Eq" />
+        <ref role="3RtpRB" to="g48d:4CQftq3lQhL" resolve="Eq0" />
+      </node>
     </node>
   </node>
   <node concept="1EwOn2" id="4NAzM1S$HE4">
