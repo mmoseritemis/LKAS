@@ -306,11 +306,17 @@
         <child id="3260991312725608311" name="newDataFlowsChunk" index="1BT5$_" />
         <child id="7472593337833908268" name="rootComponent" index="3Vepgw" />
       </concept>
-      <concept id="5188113475688114801" name="com.moraad.components.structure.FunctionAssignmentChunk" flags="ng" index="2zckJ6" />
+      <concept id="5188113475688114801" name="com.moraad.components.structure.FunctionAssignmentChunk" flags="ng" index="2zckJ6">
+        <property id="8675533035648326051" name="showSmartViewByDefault" index="32ArrR" />
+      </concept>
       <concept id="5188113475686638955" name="com.moraad.components.structure.TOEData" flags="ng" index="2zhWjs" />
       <concept id="2560071392251274778" name="com.moraad.components.structure.TOEFunction" flags="ng" index="Hgtl4" />
       <concept id="8237891392911108311" name="com.moraad.components.structure.TOEFunctionRef" flags="ng" index="IT3p4" />
+      <concept id="8675533035673365864" name="com.moraad.components.structure.FunctionAssignment" flags="ng" index="347S8W" />
       <concept id="4601417698506916745" name="com.moraad.components.structure.EmptyTOEElement" flags="ng" index="19qcqe" />
+      <concept id="1210691741201230377" name="com.moraad.components.structure.IFunctionAssignable" flags="ng" index="1e0lug">
+        <child id="6569433384300427095" name="assignedFunctions" index="lYIuc" />
+      </concept>
       <concept id="3043868224835494634" name="com.moraad.components.structure.TOEChannel" flags="ng" index="3mlHNJ">
         <child id="6453420821188241049" name="endPoints" index="38xWUi" />
         <child id="7233123248602290786" name="dataFlows" index="3XVyOB" />
@@ -601,6 +607,28 @@
                   <property role="3VMn$Y" value="LKAS" />
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="2lbezN" id="2bJ3kGprfYS" role="1b_L45">
+            <property role="TrG5h" value="Cmp.25" />
+            <property role="DVXpC" value="Turn Signal" />
+            <node concept="3VMn$a" id="2bJ3kGprfYT" role="2JHqPs" />
+            <node concept="347S8W" id="2bJ3kGprg19" role="lYIuc">
+              <ref role="122Z_O" node="jylIbLsQh6" resolve="F.5" />
+            </node>
+            <node concept="347S8W" id="2bJ3kGprg1b" role="lYIuc">
+              <ref role="122Z_O" node="jylIbLsQhQ" resolve="F.6" />
+            </node>
+          </node>
+          <node concept="2lbezN" id="2bJ3kGprfZ1" role="1b_L45">
+            <property role="TrG5h" value="Cmp.26" />
+            <property role="DVXpC" value="Windshield Wiper" />
+            <node concept="3VMn$a" id="2bJ3kGprfZ2" role="2JHqPs" />
+            <node concept="347S8W" id="2bJ3kGprg1e" role="lYIuc">
+              <ref role="122Z_O" node="jylIbLsQgq" resolve="F.4" />
+            </node>
+            <node concept="347S8W" id="2bJ3kGprg1g" role="lYIuc">
+              <ref role="122Z_O" node="jylIbLsQeQ" resolve="F.3" />
             </node>
           </node>
           <node concept="3KzYab" id="6AIRxP69WLz" role="1b_L47">
@@ -1617,7 +1645,7 @@
       <property role="1ueiNO" value="root.7615268237242518182" />
       <node concept="zGsxD" id="6AIRxP69WFh" role="zGsxH">
         <property role="2MHvPS" value="7615268237242518201" />
-        <property role="zGsxJ" value="650.5;141.5;202.0;161.0" />
+        <property role="zGsxJ" value="650.5;141.5;321.9999694824219;161.0" />
       </node>
       <node concept="zGsxD" id="6AIRxP69WFi" role="zGsxH">
         <property role="2MHvPS" value="root.7615268237242518182" />
@@ -2059,6 +2087,14 @@
         <property role="2MHvPS" value="7615268237242518253.7615268237242522009#7615268237242522283_351939253601787540" />
         <property role="zGsxJ" value="45.5;60.0;42.0;18.0" />
       </node>
+      <node concept="zGsxD" id="2bJ3kGprfZm" role="zGsxH">
+        <property role="2MHvPS" value="2517245332923678648" />
+        <property role="zGsxJ" value="5.0;34.0;79.0;51.0" />
+      </node>
+      <node concept="zGsxD" id="2bJ3kGprfZn" role="zGsxH">
+        <property role="2MHvPS" value="2517245332923678657" />
+        <property role="zGsxJ" value="199.99996948242188;34.0;115.0;51.0" />
+      </node>
     </node>
     <node concept="zGsxE" id="6AIRxP69WFL" role="zGsxT">
       <property role="1ueiNO" value="root.7615268237242518240" />
@@ -2164,6 +2200,18 @@
       <node concept="zGsxD" id="6AIRxP69WMw" role="zGsxH">
         <property role="2MHvPS" value="7615268237242518679" />
         <property role="zGsxJ" value="210.0;0.0;170.0;80.0" />
+      </node>
+      <node concept="zGsxD" id="2bJ3kGprfYL" role="zGsxH">
+        <property role="2MHvPS" value="root.7615268237242518201_7615268237242521643" />
+        <property role="zGsxJ" value="0.0;0.0;92.0;18.0" />
+      </node>
+      <node concept="zGsxD" id="2bJ3kGprfZc" role="zGsxH">
+        <property role="2MHvPS" value="2517245332923678648" />
+        <property role="zGsxJ" value="-129.99997260354394;-10.000011444091797;79.0;51.0" />
+      </node>
+      <node concept="zGsxD" id="2bJ3kGprfZd" role="zGsxH">
+        <property role="2MHvPS" value="2517245332923678657" />
+        <property role="zGsxJ" value="199.99996948242188;-16.5000057220459;115.0;51.0" />
       </node>
     </node>
     <node concept="zGsxE" id="6AIRxP69WGI" role="zGsxT">
@@ -2310,6 +2358,7 @@
   <node concept="2zckJ6" id="6AIRxP69WAW">
     <property role="3GE5qa" value="Item Definition" />
     <property role="TrG5h" value="Function Assignment" />
+    <property role="32ArrR" value="true" />
   </node>
   <node concept="2vPz$R" id="6AIRxP69WAX">
     <property role="TrG5h" value="Assumptions" />
