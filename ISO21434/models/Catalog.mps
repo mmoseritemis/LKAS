@@ -1122,6 +1122,50 @@
         </node>
       </node>
     </node>
+    <node concept="3Rgaea" id="3FzP1o8TE_B" role="3RoD5G">
+      <property role="DVXpC" value="Weak Key Generation" />
+      <property role="TrG5h" value="TC.5a" />
+      <ref role="323Bpw" node="4CQftq3lQpp" resolve="TC.4" />
+      <node concept="3VMn$a" id="3FzP1o8TE_C" role="2JHqPs" />
+      <node concept="3RtnZZ" id="3FzP1o8TEKB" role="3Rtpal">
+        <ref role="122Z_O" to="g48d:4CQftq3lQja" resolve="C" />
+      </node>
+      <node concept="13pXwX" id="3FzP1o8TEKC" role="3Rtpag" />
+      <node concept="3h3ntD" id="3FzP1o8TEKD" role="3Rtpag" />
+      <node concept="3WX1Ss" id="3FzP1o8TEKE" role="3Rtpag" />
+      <node concept="3RtpOr" id="3FzP1o8TEMu" role="3RtpOm">
+        <ref role="3RtpOq" to="g48d:4CQftq3lQhE" resolve="T" />
+        <ref role="3RtpRB" to="g48d:4CQftq3lQhH" resolve="T1" />
+      </node>
+      <node concept="3RtpOr" id="3FzP1o8TF6K" role="3RtpOm">
+        <ref role="3RtpOq" to="g48d:4CQftq3lQhw" resolve="Ex" />
+        <ref role="3RtpRB" to="g48d:4CQftq3lQhy" resolve="Ex1" />
+      </node>
+      <node concept="3RtpOr" id="3FzP1o8TF6Q" role="3RtpOm">
+        <ref role="3RtpOq" to="g48d:4CQftq3lQhP" resolve="K" />
+        <ref role="3RtpRB" to="g48d:4CQftq3lQhR" resolve="K1" />
+      </node>
+      <node concept="3RtpOr" id="3FzP1o8TF6X" role="3RtpOm">
+        <ref role="3RtpOq" to="g48d:4CQftq3lQh_" resolve="W" />
+        <ref role="3RtpRB" to="g48d:4CQftq3lQhC" resolve="W2" />
+      </node>
+      <node concept="3RtpOr" id="3FzP1o8TF75" role="3RtpOm">
+        <ref role="3RtpOq" to="g48d:4CQftq3lQhK" resolve="Eq" />
+        <ref role="3RtpRB" to="g48d:4CQftq3lQhL" resolve="Eq0" />
+      </node>
+    </node>
+    <node concept="3Rgaea" id="3FzP1o8TFhC" role="3RoD5G">
+      <property role="TrG5h" value="TC.6a" />
+      <property role="DVXpC" value="Exposed Diagnostic Interface" />
+      <ref role="323Bpw" node="4CQftq3lQpp" resolve="TC.4" />
+      <node concept="3VMn$a" id="3FzP1o8TFhD" role="2JHqPs" />
+      <node concept="3RtnZZ" id="3FzP1o8TFsj" role="3Rtpal">
+        <ref role="122Z_O" to="g48d:4CQftq3lQja" resolve="C" />
+      </node>
+      <node concept="13pXwX" id="3FzP1o8TFsk" role="3Rtpag" />
+      <node concept="3h3ntD" id="3FzP1o8TFsl" role="3Rtpag" />
+      <node concept="3WX1Ss" id="3FzP1o8TFsm" role="3Rtpag" />
+    </node>
     <node concept="3Rgaea" id="4CQftq3lQqK" role="3RoD5G">
       <property role="TrG5h" value="TC.5" />
       <property role="DVXpC" value="Denial of Service" />
