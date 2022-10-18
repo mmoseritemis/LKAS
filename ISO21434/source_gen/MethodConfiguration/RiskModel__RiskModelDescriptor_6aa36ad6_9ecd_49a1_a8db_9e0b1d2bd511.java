@@ -19,7 +19,7 @@ public class RiskModel__RiskModelDescriptor_6aa36ad6_9ecd_49a1_a8db_9e0b1d2bd511
 
   @Override
   public String getInfo() {
-    String info = "model: " + "r:6aa36ad6-9ecd-49a1-a8db-9e0b1d2bd511(MethodConfiguration) in IdeaFile[path: C:/Users/mattm/MPSProjects/LKAS/ISO21434/models/MethodConfiguration.mps]" + "\n";
+    String info = "model: " + "r:6aa36ad6-9ecd-49a1-a8db-9e0b1d2bd511(MethodConfiguration) in IdeaFile[path: C:/Users/mattm/SecurityAnalystProjects/LKAS/ISO21434/models/MethodConfiguration.mps]" + "\n";
     info += "module: " + "ISO21434";
     return info;
   }

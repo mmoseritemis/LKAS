@@ -182,6 +182,7 @@
       <concept id="4718052244458697284" name="com.moraad.core.structure.ThreatScenario" flags="ng" index="2vM170">
         <child id="3440241848483078763" name="dampedBy" index="37Y_fg" />
         <child id="3440241848483078753" name="threatenedBy" index="37Y_fq" />
+        <child id="6214292239606540182" name="compromises" index="1m2RT8" />
         <child id="4841528009168898947" name="actsOn" index="3BFlIh" />
         <child id="4841528009172846276" name="threatScenarioClass" index="3BUDrm" />
         <child id="626307519462781114" name="damageScenarios" index="3D3iv$" />
@@ -206,7 +207,7 @@
         <property id="4056312742470029003" name="normalBehavior" index="28AYgT" />
         <property id="4056312742470029176" name="operationSituation" index="28AYma" />
         <child id="7480212422241573232" name="scale" index="2nSPjw" />
-        <child id="6639352543897202452" name="concerns" index="1xHTzy" />
+        <child id="6214292239618163769" name="concerns" index="1mPtRB" />
         <child id="5631921252374721129" name="damageCriteriaForClassAssignments" index="1WV2zz" />
       </concept>
       <concept id="1010266934660147201" name="com.moraad.core.structure.DamageScenarioRef" flags="ng" index="2AI9xH" />
@@ -234,6 +235,10 @@
       </concept>
       <concept id="7449413747451491361" name="com.moraad.core.structure.ProjectInfoChunk" flags="ng" index="3eC5pO">
         <child id="9003278715588858344" name="projectInfoContent" index="$s4ey" />
+      </concept>
+      <concept id="6214292239606540161" name="com.moraad.core.structure.DerivedCompromisedList" flags="ng" index="1m2RTv" />
+      <concept id="6214292239606540150" name="com.moraad.core.structure.QualifiedAssetList" flags="ng" index="1m2RUC">
+        <child id="6214292239606540153" name="qualifiedAssets" index="1m2RUB" />
       </concept>
       <concept id="330802076191738031" name="com.moraad.core.structure.RiskTreatmentEvaluation" flags="ng" index="1mMvoj">
         <property id="330802076205393171" name="lastUpdatedTimestamp" index="1nI1IJ" />
@@ -658,6 +663,7 @@
       <node concept="2AI9xH" id="2bJ3kGprgtK" role="3D3iv$">
         <ref role="122Z_O" node="2bJ3kGprg1n" resolve="DS.1" />
       </node>
+      <node concept="1m2RTv" id="3FzP1o8TkjZ" role="1m2RT8" />
     </node>
     <node concept="2vM170" id="2bJ3kGprglV" role="2vPz$N">
       <property role="TrG5h" value="TS.2" />
@@ -683,6 +689,7 @@
       <node concept="2AI9xH" id="2bJ3kGprgs1" role="3D3iv$">
         <ref role="122Z_O" node="2bJ3kGprg2C" resolve="DS.2" />
       </node>
+      <node concept="1m2RTv" id="3FzP1o8Tkk0" role="1m2RT8" />
     </node>
   </node>
   <node concept="2vPz$R" id="Xh4GVR8Y_z">
@@ -696,14 +703,6 @@
       <property role="28AYma" value="Driving" />
       <property role="DVXpC" value="Speedometer stops working as the result of an attack" />
       <node concept="3VMn$a" id="2bJ3kGprg1o" role="2JHqPs" />
-      <node concept="1xHTQC" id="2bJ3kGprg1p" role="1xHTzy">
-        <node concept="3KzYab" id="2bJ3kGprg1q" role="1xHT_4">
-          <ref role="122Z_O" node="Xh4GVR8YD3" resolve="D.2" />
-        </node>
-        <node concept="3RtnZZ" id="2bJ3kGprg1r" role="1xHT_k">
-          <ref role="122Z_O" to="g48d:4CQftq3lQjb" resolve="A" />
-        </node>
-      </node>
       <node concept="2nSPjc" id="2bJ3kGprg7W" role="2nSPjw">
         <ref role="122Z_O" to="g48d:Xq20ta5IJI" resolve="IS.2" />
       </node>
@@ -731,6 +730,16 @@
           <ref role="122Z_O" to="g48d:4CQftq3lQir" resolve="RU.P0" />
         </node>
       </node>
+      <node concept="1m2RUC" id="3FzP1o8TkjV" role="1mPtRB">
+        <node concept="1xHTQC" id="2bJ3kGprg1p" role="1m2RUB">
+          <node concept="3KzYab" id="2bJ3kGprg1q" role="1xHT_4">
+            <ref role="122Z_O" node="Xh4GVR8YD3" resolve="D.2" />
+          </node>
+          <node concept="3RtnZZ" id="2bJ3kGprg1r" role="1xHT_k">
+            <ref role="122Z_O" to="g48d:4CQftq3lQjb" resolve="A" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2AH0t1" id="2bJ3kGprg2C" role="2vPz$N">
       <property role="TrG5h" value="DS.2" />
@@ -738,14 +747,6 @@
       <property role="28AYma" value="Driving" />
       <property role="DVXpC" value="Brake status stops functioning as the result of an attack" />
       <node concept="3VMn$a" id="2bJ3kGprg2D" role="2JHqPs" />
-      <node concept="1xHTQC" id="2bJ3kGprg2E" role="1xHTzy">
-        <node concept="3KzYab" id="2bJ3kGprg2F" role="1xHT_4">
-          <ref role="122Z_O" node="Xh4GVR8YDf" resolve="D.3" />
-        </node>
-        <node concept="3RtnZZ" id="2bJ3kGprg2G" role="1xHT_k">
-          <ref role="122Z_O" to="g48d:4CQftq3lQjb" resolve="A" />
-        </node>
-      </node>
       <node concept="2nSPjc" id="2bJ3kGprg9I" role="2nSPjw">
         <ref role="122Z_O" to="g48d:Xq20ta5IJI" resolve="IS.2" />
       </node>
@@ -775,6 +776,16 @@
           <ref role="122Z_O" to="g48d:4CQftq3lQir" resolve="RU.P0" />
         </node>
       </node>
+      <node concept="1m2RUC" id="3FzP1o8TkjW" role="1mPtRB">
+        <node concept="1xHTQC" id="2bJ3kGprg2E" role="1m2RUB">
+          <node concept="3KzYab" id="2bJ3kGprg2F" role="1xHT_4">
+            <ref role="122Z_O" node="Xh4GVR8YDf" resolve="D.3" />
+          </node>
+          <node concept="3RtnZZ" id="2bJ3kGprg2G" role="1xHT_k">
+            <ref role="122Z_O" to="g48d:4CQftq3lQjb" resolve="A" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2AH0t1" id="2bJ3kGprg4i" role="2vPz$N">
       <property role="TrG5h" value="DS.3" />
@@ -782,14 +793,6 @@
       <property role="28AYma" value="Driving" />
       <property role="DVXpC" value="ECU faces denial of service from an attack" />
       <node concept="3VMn$a" id="2bJ3kGprg4j" role="2JHqPs" />
-      <node concept="1xHTQC" id="2bJ3kGprg4k" role="1xHTzy">
-        <node concept="3$0O7b" id="2bJ3kGprg4l" role="1xHT_4">
-          <ref role="122Z_O" node="Xh4GVR8YDZ" resolve="Cmp.1" />
-        </node>
-        <node concept="3RtnZZ" id="2bJ3kGprg4m" role="1xHT_k">
-          <ref role="122Z_O" to="g48d:4CQftq3lQjb" resolve="A" />
-        </node>
-      </node>
       <node concept="2nSPjc" id="2bJ3kGprgb2" role="2nSPjw">
         <ref role="122Z_O" to="g48d:Xq20ta5IJI" resolve="IS.2" />
       </node>
@@ -819,6 +822,16 @@
           <ref role="122Z_O" to="g48d:4CQftq3lQir" resolve="RU.P0" />
         </node>
       </node>
+      <node concept="1m2RUC" id="3FzP1o8TkjX" role="1mPtRB">
+        <node concept="1xHTQC" id="2bJ3kGprg4k" role="1m2RUB">
+          <node concept="3$0O7b" id="2bJ3kGprg4l" role="1xHT_4">
+            <ref role="122Z_O" node="Xh4GVR8YDZ" resolve="Cmp.1" />
+          </node>
+          <node concept="3RtnZZ" id="2bJ3kGprg4m" role="1xHT_k">
+            <ref role="122Z_O" to="g48d:4CQftq3lQjb" resolve="A" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2AH0t1" id="2bJ3kGprg5L" role="2vPz$N">
       <property role="TrG5h" value="DS.4" />
@@ -826,14 +839,6 @@
       <property role="28AYma" value="Driving" />
       <property role="DVXpC" value="ECU is unable to modify or store data as the result of an attack" />
       <node concept="3VMn$a" id="2bJ3kGprg5M" role="2JHqPs" />
-      <node concept="1xHTQC" id="2bJ3kGprg5N" role="1xHTzy">
-        <node concept="3$0O7b" id="2bJ3kGprg5O" role="1xHT_4">
-          <ref role="122Z_O" node="Xh4GVR8YDZ" resolve="Cmp.1" />
-        </node>
-        <node concept="3RtnZZ" id="2bJ3kGprg5P" role="1xHT_k">
-          <ref role="122Z_O" to="g48d:4CQftq3lQjc" resolve="I" />
-        </node>
-      </node>
       <node concept="2nSPjc" id="2bJ3kGprgbS" role="2nSPjw">
         <ref role="122Z_O" to="g48d:Xq20ta5IJI" resolve="IS.2" />
       </node>
@@ -859,6 +864,16 @@
         <ref role="122Z_O" to="g48d:4CQftq3lQjr" resolve="P" />
         <node concept="fNVPU" id="2bJ3kGprgce" role="3cP9Jm">
           <ref role="122Z_O" to="g48d:4CQftq3lQir" resolve="RU.P0" />
+        </node>
+      </node>
+      <node concept="1m2RUC" id="3FzP1o8TkjY" role="1mPtRB">
+        <node concept="1xHTQC" id="2bJ3kGprg5N" role="1m2RUB">
+          <node concept="3$0O7b" id="2bJ3kGprg5O" role="1xHT_4">
+            <ref role="122Z_O" node="Xh4GVR8YDZ" resolve="Cmp.1" />
+          </node>
+          <node concept="3RtnZZ" id="2bJ3kGprg5P" role="1xHT_k">
+            <ref role="122Z_O" to="g48d:4CQftq3lQjc" resolve="I" />
+          </node>
         </node>
       </node>
     </node>
