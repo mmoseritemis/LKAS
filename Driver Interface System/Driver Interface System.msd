@@ -38,6 +38,9 @@
     <language slang="l:b65d571f-daea-41e5-99be-6168217ee77f:de.itemis.mps.todos" version="0" />
     <language slang="l:d8c07454-d390-4e04-8826-d25e86f59134:de.itemis.mps.xdiagram" version="0" />
     <language slang="l:174fc1bc-8a89-4d07-8636-8bc5dc4757e4:de.itemis.vcs_text.tables" version="0" />
+    <language slang="l:1ce18c1e-e691-4909-8d5e-b4ddc758064f:de.itemis.ysec.application.utils" version="0" />
+    <language slang="l:77390b0e-ab69-4de7-a036-d557f81b479e:de.itemis.ysec.catalog.technologies" version="0" />
+    <language slang="l:7234d3fa-3f51-44a6-b03f-4596bf1cc5e5:de.itemis.ysec.catalogs.core" version="0" />
     <language slang="l:24e88a55-f0b5-4dc5-9077-49730e920865:de.itemis.ysec.checklist" version="0" />
     <language slang="l:edd58c45-9999-4ad9-8f8a-e0d26da1cbc9:de.itemis.ysec.commons" version="0" />
     <language slang="l:028969a3-7835-44e7-99c9-9cc9e12c2778:de.itemis.ysec.methodConfiguration" version="5" />
@@ -65,6 +68,10 @@
     <module reference="c0c29873-b2f7-413b-b508-0ba5b325a1d0(com.moraad.core.runtime)" version="0" />
     <module reference="b4294564-6583-4f72-81aa-5b6fc2f1be67(de.itemis.mps.commons.runtime)" version="0" />
     <module reference="f38527c6-3966-46ff-88e4-7a52d4ab2235(de.itemis.ysec.checklist.runtime)" version="0" />
+    <module reference="653446a7-cd5f-437e-8771-dcfb81a48316(de.itemis.ysec.commons.lib)" version="0" />
+    <module reference="55293ae5-03b4-4178-ac73-d41d647b48ac(de.itemis.ysec.terminology.lib)" version="0" />
+    <module reference="9e4833f4-5a7f-4fbd-a204-b742d0550bb8(de.itemis.ysec.userScripts.lib)" version="0" />
+    <module reference="5b8291da-a6cc-445d-aaaa-1313cd19263d(io.yakindu.ysec.lib)" version="0" />
   </dependencyVersions>
 </solution>
 
